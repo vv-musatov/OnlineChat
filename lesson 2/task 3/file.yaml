@@ -1,0 +1,7 @@
+item:
+- Монитор
+- Philips
+quantity: 10
+prices:
+  min_price: 100 €
+  max_price: 200 €
