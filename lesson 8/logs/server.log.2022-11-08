@@ -1,0 +1,74 @@
+2022-11-07 22:59:21,969 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 22:59:21,969 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 22:59:38,173 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 22:59:38,173 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 22:59:41,740 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48144), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1667851181.7404683, 'from': 'wk', 'message': '123'}) {}
+2022-11-07 22:59:41,740 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 22:59:42,178 DEBUG  dec_log  Функция get_message вызвана с аргументами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48144)>,) {}
+2022-11-07 22:59:42,178 DEBUG  dec_log  Функция get_message вызвана из функции main
+2022-11-07 22:59:42,178 INFO   server   Проверка ответа от клиента: msg
+2022-11-07 22:59:42,178 DEBUG  dec_log  Функция client_answer_parsing вызвана с аргументами ({'action': 'msg', 'time': 1667851181.7404683, 'from': 'wk', 'message': '123'}, [('wk', '123')]) {}
+2022-11-07 22:59:42,178 DEBUG  dec_log  Функция client_answer_parsing вызвана из функции main
+2022-11-07 22:59:42,178 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48134)>, {'action': 'msg', 'from': 'wk', 'time': 1667851182.178637, 'message': '123'}) {}
+2022-11-07 22:59:42,178 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 22:59:42,178 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48144)>, {'action': 'msg', 'from': 'wk', 'time': 1667851182.178637, 'message': '123'}) {}
+2022-11-07 22:59:42,179 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 22:59:53,685 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48144), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1667851193.6848972, 'from': 'wk', 'message': 'eeee'}) {}
+2022-11-07 22:59:53,685 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 22:59:53,692 DEBUG  dec_log  Функция get_message вызвана с аргументами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48144)>,) {}
+2022-11-07 22:59:53,692 DEBUG  dec_log  Функция get_message вызвана из функции main
+2022-11-07 22:59:53,692 INFO   server   Проверка ответа от клиента: msg
+2022-11-07 22:59:53,692 DEBUG  dec_log  Функция client_answer_parsing вызвана с аргументами ({'action': 'msg', 'time': 1667851193.6848972, 'from': 'wk', 'message': 'eeee'}, [('wk', 'eeee')]) {}
+2022-11-07 22:59:53,692 DEBUG  dec_log  Функция client_answer_parsing вызвана из функции main
+2022-11-07 22:59:53,692 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48134)>, {'action': 'msg', 'from': 'wk', 'time': 1667851193.6927395, 'message': 'eeee'}) {}
+2022-11-07 22:59:53,692 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 22:59:53,693 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48144)>, {'action': 'msg', 'from': 'wk', 'time': 1667851193.6927395, 'message': 'eeee'}) {}
+2022-11-07 22:59:53,693 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 23:01:01,699 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 23:01:01,699 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 23:35:14,396 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 23:35:14,396 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 23:42:02,660 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 23:42:02,661 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 23:42:35,125 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 23:42:35,126 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 23:42:45,092 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 23:42:45,092 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 23:43:37,232 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 23:43:37,232 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 23:43:45,365 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 23:43:45,365 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 23:45:37,773 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-07 23:45:37,773 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-07 23:45:41,936 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53096), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1667853941.935885, 'from': 'wk', 'message': 'Тест'}) {}
+2022-11-07 23:45:41,936 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция get_message вызвана с аргументами (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53096)>,) {}
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция get_message вызвана из функции main
+2022-11-07 23:45:42,279 INFO   server   Проверка ответа от клиента: msg
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция client_answer_parsing вызвана с аргументами ({'action': 'msg', 'time': 1667853941.935885, 'from': 'wk', 'message': 'Тест'}, [('wk', 'Тест')]) {}
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция client_answer_parsing вызвана из функции main
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58420)>, {'action': 'msg', 'from': 'wk', 'time': 1667853942.2794266, 'message': 'Тест'}) {}
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53666)>, {'action': 'msg', 'from': 'wk', 'time': 1667853942.2794266, 'message': 'Тест'}) {}
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-07 23:45:42,279 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53096)>, {'action': 'msg', 'from': 'wk', 'time': 1667853942.2794266, 'message': 'Тест'}) {}
+2022-11-07 23:45:42,280 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-08 18:36:46,443 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-08 18:36:46,461 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-08 18:36:55,527 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-08 18:36:55,527 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-08 18:37:18,506 DEBUG  dec_log  Функция create_message вызвана с аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46136), raddr=('127.0.0.1', 7777)>,) {}
+2022-11-08 18:37:18,506 DEBUG  dec_log  Функция create_message вызвана из функции main
+2022-11-08 18:37:18,507 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46136), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1667921838.5067525, 'from': 'wk', 'message': 'Всем привет'}) {}
+2022-11-08 18:37:18,507 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-08 18:37:18,630 DEBUG  dec_log  Функция get_message вызвана с аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46136)>,) {}
+2022-11-08 18:37:18,630 DEBUG  dec_log  Функция get_message вызвана из функции main
+2022-11-08 18:37:18,630 INFO   server   Проверка ответа от клиента: msg
+2022-11-08 18:37:18,630 DEBUG  dec_log  Функция client_answer_parsing вызвана с аргументами ({'action': 'msg', 'time': 1667921838.5067525, 'from': 'wk', 'message': 'Всем привет'}, [('wk', 'Всем привет')]) {}
+2022-11-08 18:37:18,630 DEBUG  dec_log  Функция client_answer_parsing вызвана из функции main
+2022-11-08 18:37:18,630 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46136)>, {'action': 'msg', 'from': 'wk', 'time': 1667921838.6308215, 'message': 'Всем привет'}) {}
+2022-11-08 18:37:18,630 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-08 18:37:18,631 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50644)>, {'action': 'msg', 'from': 'wk', 'time': 1667921838.6308215, 'message': 'Всем привет'}) {}
+2022-11-08 18:37:18,631 DEBUG  dec_log  Функция send_message вызвана из функции main
+2022-11-08 18:37:18,631 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57986)>, {'action': 'msg', 'from': 'wk', 'time': 1667921838.6308215, 'message': 'Всем привет'}) {}
+2022-11-08 18:37:18,631 DEBUG  dec_log  Функция send_message вызвана из функции main
