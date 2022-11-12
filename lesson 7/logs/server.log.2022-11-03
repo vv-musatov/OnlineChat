@@ -1,0 +1,9 @@
+2022-11-03 21:33:02,368 DEBUG  dec_log  Функция create_parser вызвана с аргументами () {}
+2022-11-03 21:33:02,368 DEBUG  dec_log  Функция create_parser вызвана из функции main
+2022-11-03 21:33:05,837 DEBUG  dec_log  Функция get_message вызвана с аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49984)>,) {}
+2022-11-03 21:33:05,837 DEBUG  dec_log  Функция get_message вызвана из функции main
+2022-11-03 21:33:05,838 INFO   server   Проверка ответа от клиента: presence
+2022-11-03 21:33:05,838 DEBUG  dec_log  Функция client_answer_parsing вызвана с аргументами ({'action': 'presence', 'time': 1667500385.8333445, 'type': 'status', 'user': {'account_name': 'wk', 'status': 'I am here!'}},) {}
+2022-11-03 21:33:05,838 DEBUG  dec_log  Функция client_answer_parsing вызвана из функции main
+2022-11-03 21:33:05,838 DEBUG  dec_log  Функция send_message вызвана с аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49984)>, {'response': 200, 'alert': 'OK'}) {}
+2022-11-03 21:33:05,838 DEBUG  dec_log  Функция send_message вызвана из функции main
